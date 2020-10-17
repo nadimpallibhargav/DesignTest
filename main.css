@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+}
+button.btn{
+    border-radius: 20px;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(to right,#eb01a5, #4931d1) , url("images/header.jpg");      
+    color: white;
+}
+nav a{
+    color: white;    
+}
+
+/* how */
+#how .card{
+    border: none;
+}
+#how a.card-link{
+    color: #fa005e;
+    font-weight: bold;
+}
+.card-deck .card .card-body i{
+    font-size: 50px;
+}
+
+/* Explore */
+#explore{
+    width: 100%;
+    height: auto;    
+    background-color: #fa005e;
+    color: white;
+}
+#explorecard{
+    color: black;    
+}
+#explorecard img{
+    width: 50;
+    height: 100;
+}
+#explorecard .card{
+    /* margin: 10px 20px; */
+}
+
+/feedback
+#feedback{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+}
+#feedback .fas{
+    color: orange;
+}
+.feed{
+    box-shadow: 1px 1px 4px #c5bfc1; 
+    border: 1px solid whitesmoke; 
+    border-radius: 10px;
+}
+.feed a{
+    color: #fa005e;
+    font-weight: bold;
+}
+
+/* footer */
+footer{
+    width: 100%;
+    height: auto;    
+    color: white;
+    background-color: rgba(0, 0, 0, 0.849);
+}
+footer a{
+    color: white;
+}
+#social{
+    background-color: #555253;
+}
