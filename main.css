@@ -9,15 +9,20 @@ body{
 button.btn{
     border-radius: 20px;
 }
-
-header{
-    width: 100%;
-    height: auto;
-    background-image: linear-gradient(to right,#eb01a5, #4931d1) , url("images/header.jpg");      
-    color: white;
+.navbar{
+    background-color: transparent;
 }
 nav a{
     color: white;    
+}
+header{
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(235, 1, 165, 0.5), rgba(73, 49, 209, 0.5)), url(images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 60vh;
 }
 
 /* how */
